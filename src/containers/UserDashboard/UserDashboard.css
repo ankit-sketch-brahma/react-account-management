@@ -1,0 +1,95 @@
+.a-text {
+  background-color: darkolivegreen;
+  border-color: transparent;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+.a-text:hover {
+  background-color: transparent;
+  color: darkolivegreen;
+  border-color: darkolivegreen;
+}
+.a-text-home {
+  background-color: steelblue;
+  border-color: transparent;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+.a-text-home:hover {
+  background-color: transparent;
+  color: steelblue;
+  border-color: steelblue;
+}
+
+.listUser {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+  border-top: 1px solid silver;
+}
+
+.listUser > div{
+  padding: 10px;
+}
+.listUser > div:nth-of-type(1) {
+  border-right: 1px solid silver;
+}
+
+.dash-name {
+  margin-top: 0px;
+  color: dimgray;
+  font-weight: 400;
+  font-family: serif;
+  position: relative;
+}
+.dash-name > span {
+  font-size: 14px;
+}
+.dash-type {
+  font-size: 18px;
+  font-weight: bold;
+  color: brown;
+}
+.users-table {
+  border: 1px solid silver;
+  border-collapse: collapse;
+  width: 100%;
+}
+.users-table > tbody > tr > td {
+  font-size: 14px;
+}
+.users-table > thead > tr > th,
+.users-table > tbody > tr > td {
+  padding: 5px 15px;
+  text-align: left;
+  border: 1px solid silver;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: dimgray;
+  font-family: serif;
+}
+.user-title {
+  font-size: 20px;
+  color: dimgray;
+  margin-bottom: 5px;
+  border-top: 1px solid silver;
+  padding-top: 10px;
+  margin-top: 25px;
+}
+.account-status {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  top: 5px;
+  right: 0;
+  /* border-bottom: 1px solid; */
+}
+.account-status-btn {
+  margin-left: 5px;
+  color: dimgray;
+  cursor: pointer;
+  border-radius: 3px;
+}

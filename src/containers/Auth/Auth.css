@@ -1,0 +1,47 @@
+.auth {
+  width: 600px;
+  border: 1px solid silver;
+  padding: 40px;
+  margin: 30px auto;
+  border-radius: 4px;
+}
+
+.loginForm {
+  /* padding-right: 7px; */
+}
+
+
+.loginForm > select,
+.loginForm > input {
+  padding: 7px 0px;
+  padding-left: 7px;
+  border-radius: 4px;
+  width: 100%;
+  border-width: 1px;
+  margin: 10px 0px;
+  box-sizing : border-box;
+  background-color: transparent;
+}
+
+.loginForm > button {
+  margin-top: 15px;
+}
+.markInputWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
+.markInputWrapper > input {
+  padding: 7px 0px;
+  padding-left: 7px;
+  border-radius: 4px;
+  width: 100%;
+  border-width: 1px;
+  margin: 10px 0px;
+  box-sizing : border-box;
+}
+.error {
+  text-align: center;
+  color: brown;
+  font-size: 14px;
+}
